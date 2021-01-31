@@ -17,15 +17,19 @@
 <div id="about" class="about-area section-padding">
     <div class="container">
         <div class="row">
-            <div class="col-md-7 col-sn-8 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">
-                <h2 class="section-title">About Me</h2>
-                <div class="line"></div>
-                <h4>{{ about.short_description }}</h4>
-                <p>{{ about.description }}</p>
+            <div class="col-md-7 col-sn-5 col-xs-12 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="about-left">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="line"></div>
+                    <h4>I'm Katapon Sinpunyawong</h4>
+                    <p>I am a software engineering student who passions to work with code especilly about games. I wants to learn new technology to gather experience.</p>
+                    <br>
+                    <p>I am interested in the game development field because my impression of video games makes me want to know more details like processes to produce the game. That makes me want to try in the game development field.</p>
+                </div>
             </div>
             <div class="col-md-5 visible-md visible-lg wow fadeInDown" data-wow-delay="0.6s">
                 <div class="profile">
-                    <img src="image url" alt="Profile image" class="img-responsive">
+                    <img src="{{ about.image.url }}" alt="Profile image" class="img-responsive">
                 </div>
             </div>
         </div>
